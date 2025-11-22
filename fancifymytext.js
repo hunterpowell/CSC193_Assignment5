@@ -1,6 +1,7 @@
 // alert("Hello, World!");
 
 function makeBigger() {
+    // "alert" feels so violent lol
     // alert("Hello world!")
     document.getElementById("textArea").style.fontSize = "24pt";
 }
@@ -33,6 +34,7 @@ function addMoo() {
         if (sentences[i].trim() !== "") {
             var words = sentences[i].trim().split(" ");
 
+            // only moo when we have something written!
             if (words.length > 0) {
                 words[words.length - 1] = words[words.length - 1] + "-Moo";
             }
